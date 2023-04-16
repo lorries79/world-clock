@@ -17,16 +17,21 @@ h2 {
 select {
   display: block;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 10px;
+  background: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: linear-gradient(
+    91.7deg,
+    rgb(252, 190, 224) 16.8%,
+    rgb(212, 254, 218) 103.6%
+  );
   padding: 30px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 13px 12px 42px 34px rgba(123, 95, 119, 0.3);
   border-radius: 10px;
 }
 
